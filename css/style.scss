@@ -1,6 +1,8 @@
 ---
 ---
 
+//TODO make site title the correct colour
+
 @import 'normalize';
 @import 'gridism';
 @import 'markdown';
@@ -10,7 +12,8 @@
 @import 'monokai';
 
 html, body{
-	background-color: #eee;
+	//background-color: #eee;
+	background-color: #500000;
 }
 body{
 	text-align: left;
@@ -28,10 +31,12 @@ body{
 a{
 	transition: .2s ease-in all;
 }
-.site-title{
+
+#site-title {
 	margin: 0;
 	font-size: 4em;
 	text-align: center;
+	color: #ffffff; //$site-title-color;
 }
 
 nav ul {
@@ -85,7 +90,8 @@ nav ul {
 			transform: rotate(90deg);
 		}
 		&:hover {
-			background-color: #E7E7E7;
+			//background-color: #E7E7E7;
+			background-color: $nav-back-color
 		}
 	}
 
@@ -101,7 +107,8 @@ nav ul {
 	overflow: auto;
 	padding: 0;
 	margin: 0;
-	background-color: $nav-back-color;
+	//background-color: $nav-back-color;
+	background-color: #FFF;
 
 	ul{
 		display: inline-block;
@@ -118,12 +125,12 @@ nav ul {
 	a{
 		padding: 15px 20px;
 		border-bottom: 4px solid transparent;
-		color: #ddd;
+		color: #333;
 		text-decoration: none;
 
 		&:hover{
-			background-color: darken($nav-back-color, 10%);
-			border-bottom: 4px solid #1AC9DB;
+			background-color: $nav-back-color;
+			border-bottom: 4px solid #333; //#1AC9DB;
 		}
 	}
 }
@@ -355,6 +362,7 @@ article{
 	padding-top: 0.5em;
 	padding-left: $padding-left;
 	text-align: center;
+	color: #adaaaa;
 }
 
 @media screen and (max-width: 568px) {
@@ -373,6 +381,7 @@ article{
 	}
 	.site-title{
 		font-size: 2em;
+		color: $site-title-color;
 	}
 	.main-nav {
 		position: fixed;
@@ -429,7 +438,8 @@ article{
 				}
 			}
 			&:hover {
-				background-color: #E7E7E7;
+				//background-color: #E7E7E7;
+				background-color: $nav-back-color;
 				border: none;
 			}
 		}
@@ -479,6 +489,7 @@ article{
 	}
 	.site-title{
 		font-size: 2em;
+		color: $site-title-color;
 	}
 	article{
 		footer{
