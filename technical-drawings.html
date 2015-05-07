@@ -1,0 +1,14 @@
+---
+layout: default
+title: Technical Drawings
+---
+
+<div id="display-photos" class="grid post">
+  {% loop_directory directory:img/technical-drawings/lowres iterator:image filter:*.jpg sort:ascending %}
+    <div class="unit one-third">
+      <a href="/img/technical-drawings/mediumres/{{ image }}.jpg">
+        <img src="/img/technical-drawings/lowres/{{ image }}.jpg" />
+      </a>
+    </div>
+  {% endloop_directory %}
+</div>

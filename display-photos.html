@@ -1,0 +1,14 @@
+---
+layout: default
+title: Display Photos
+---
+
+<div id="display-photos" class="grid post">
+  {% loop_directory directory:img/display-photos/lowres iterator:image filter:*.jpg sort:ascending %}
+    <div class="unit one-third">
+      <a href="/img/display-photos/mediumres/{{ image }}.jpg">
+        <img src="/img/display-photos/lowres/{{ image }}.jpg" />
+      </a>
+    </div>
+  {% endloop_directory %}
+</div>
