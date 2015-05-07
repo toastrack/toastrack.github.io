@@ -3,12 +3,15 @@ layout: default
 title: Technical Drawings
 ---
 
-<div id="display-photos" class="grid post">
-  {% loop_directory directory:img/technical-drawings/lowres iterator:image filter:*.jpg sort:ascending %}
-    <div class="unit one-third">
-      <a href="/img/technical-drawings/mediumres/{{ image }}.jpg">
-        <img src="/img/technical-drawings/lowres/{{ image }}.jpg" alt="{{ image }}" title="{{ image }}"/>
-      </a>
-    </div>
-  {% endloop_directory %}
+<div id="technical-drawings" class="grid post">
+  {% for file in site.collections.technical-drawings-lowres.files %}
+  {% if file.extname == ".jpg" %}
+  {% capture filename %}{{ file.path | split:"/" | last }}{% endcapture %}
+  <div class="unit one-third">
+    <a href="/technical-drawings-mediumres/{{ filename }}">
+        <img src="/technical-drawings-lowres/{{ filename }}"/>
+    </a>
+  </div>
+  {% endif %}
+  {% endfor %}
 </div>

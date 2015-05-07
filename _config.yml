@@ -37,3 +37,15 @@ about_image: placeholder.jpg
 sidebar: on
 
 encoding: UTF-8
+
+
+collections:
+    display-photos-lowres:
+        output: true
+    display-photos-mediumres:
+        output: true
+    technical-drawings-lowres:
+        output: true
+        permalink: /:path/index.html
+    technical-drawings-mediumres:
+        output: true
