@@ -7,7 +7,7 @@ title: Technical Drawings
   {% loop_directory directory:img/technical-drawings/lowres iterator:image filter:*.jpg sort:ascending %}
     <div class="unit one-third">
       <a href="/img/technical-drawings/mediumres/{{ image }}.jpg">
-        <img src="/img/technical-drawings/lowres/{{ image }}.jpg" />
+        <img src="/img/technical-drawings/lowres/{{ image }}.jpg" alt="{{ image }}" title="{{ image }}"/>
       </a>
     </div>
   {% endloop_directory %}
