@@ -2,16 +2,10 @@
 layout: default
 ---
 <div id="media" class="grid">
-	{% if site.sidebar %}
-    <div class="unit two-thirds posts">
+    <div class="unit pull-left two-fifths post">
         {{ content }}
     </div>
-    <div class="unit one-third sidebar">
-        {% include sidebar.html %}
-    </div>
-    {% else %}
-    <div class="unit whole posts">
+    <div class=" unit pull-right two-fifths post">
         {{ content }}
     </div>
-    {% endif %}
 </div>
