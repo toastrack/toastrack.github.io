@@ -12,4 +12,4 @@ Toastrack is a great volunteering opportunity. The University of Southampton is 
 Membership is free and open to any (past or present) student of the university. You don’t even have to be an engineer or have any special skills to help out. If you are over 21 and have held a driving licence for over 2 years, you can even get to drive it! If you are interested then please [email us][email-us].
 
 [email-us]: mailto:manager@toastrackbus.org
-[get-involved-image]: https://s3-eu-west-1.amazonaws.com/toastrackbus.org/getinvolved.jpg
+[get-involved-image]: /img/page-images/getinvolved.jpg
