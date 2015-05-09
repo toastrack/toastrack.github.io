@@ -1,0 +1,35 @@
+{% assign recent = site.events | sort: 'date' | reverse %}
+{% assign upcoming = site.events | sort: 'date' %}
+
+<div class="grid">
+	<div class="unit whole about" id="events">
+		<h3>Recent Events</h3>
+		<ul class="recent-events">
+			{% for ev in recent limit:10 %}
+			{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+			{% capture posttime %}{{ ev.date | date: '%s'}}{% endcapture %}
+			{% if nowunix >= posttime %}
+			<li>
+				<a class="recent-events" href="{{ ev.url }}">{{ ev.title }}</a>
+				<span class="event-date">{{ ev.date | date: '%d/%m/%Y' }}</span>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+
+		<h3>Upcoming Events</h3>
+		<ul class="recent-events">
+			{% for up in upcoming limit: 10 %}
+			{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+			{% capture posttime %}{{ up.date | date: '%s'}}{% endcapture %}
+			{% if nowunix < posttime %}
+			<li>
+				<a class="recent-events" href="{{ ev.url }}">{{ up.title }}</a>
+				<span class="event-date">{{ up.date | date: '%d/%m/%Y' }}</span>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+
+	</div>
+</div>

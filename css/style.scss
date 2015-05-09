@@ -27,9 +27,24 @@ body{
 .grid.wrap {
 	max-width: $body-width;
 	margin: 0 auto;
+	float: center;
 }
 a{
 	transition: .2s ease-in all;
+}
+
+ul.recent-events {
+	list-style-type: none;
+	font-size: 12pt;
+}
+
+.event-date {
+	float: right;
+	padding-right: 5px;
+}
+
+#events {
+	padding: 5px;
 }
 
 #site-title {

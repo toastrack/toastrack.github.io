@@ -46,6 +46,7 @@ collections:
         output: true
     technical-drawings-lowres:
         output: true
-        permalink: /:path/index.html
     technical-drawings-mediumres:
+        output: true
+    events:
         output: true
