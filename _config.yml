@@ -10,8 +10,11 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
-#paginate: 5
-#paginate_path: "page:num"
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+permalink: /blog/:year/:month/:day/:title/
+
 ##The website description (to be used in meta tags)
 description: University of Southampton - Toastrack Bus
 ##Some frequently used keywords on your website
@@ -34,7 +37,7 @@ links:
 ##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
 about_image: placeholder.jpg
 ##comment this if you want full width posts with no sidebar
-sidebar: on
+#sidebar: on
 
 encoding: UTF-8
 
