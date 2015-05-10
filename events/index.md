@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: page 
 title: Events
 ---
 
