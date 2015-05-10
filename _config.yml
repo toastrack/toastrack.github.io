@@ -48,5 +48,5 @@ collections:
         output: true
     technical-drawings-mediumres:
         output: true
-    events:
+    recent_events:
         output: true
