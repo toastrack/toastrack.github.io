@@ -29,10 +29,16 @@ keywords: some, relevant, keywords, for, usage, in metatags
 
 ##Some commonly used links
 links:
-    #facebook: username
-    #twitter: username
+  #facebook: username
+  #twitter: username
   email: webmaster@toastrackbus.org
   github: toastrack
+  facebook-page: https://www.facebook.com/toastrackbus
+
+##Extra header pages
+header.pages:
+  #calendar: /calendar/
+  #blog: /blog/
 
 ##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
 about_image: placeholder.jpg

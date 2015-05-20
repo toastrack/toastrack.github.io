@@ -10,9 +10,15 @@
         <li><a href="/events/"><i class="fa fa-road"></i>Events</a></li>
         <li><a href="/get-involved/"><i class="fa fa-gears"></i>Get Involved</a></li>
         <li><a href="/media/"><i class="fa fa-photo"></i>Media</a></li>
-  <!--  <li><a href="/calendar/"><i class="fa fa-calendar-o"></i>Calendar</a></li>
-        <li><a href="/blog/"><i class="fa fa-envelope-o"></i>Blog</a></li>
-  -->
+        {% if site.links.facebook-page %}
+        <li><a href="{{ site.links.facebook-page }}"><i class="fa fa-facebook-square"></i>Facebook Page</a></li>
+        {% endif %}
+        {% if site.header.pages.calendar %}
+        <li><a href="{{ site.header.pages.calendar }}"><i class="fa fa-calendar-o"></i>Calendar</a></li>
+        {% endif %}
+        {% if site.header.pages.blog %}
+        <li><a href="{{ site.header.pages.blog }}"><i class="fa fa-envelope-o"></i>Blog</a></li>
+        {% endif %}
       </ul>
     </div>
   </nav>
