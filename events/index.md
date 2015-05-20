@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: page
 title: Events
 ---
 
@@ -7,8 +7,10 @@ title: Events
 
 # Events
 
-Toastrack is ideal transport for society balls, parties, weddings and school proms. Please contact us if you would like more information about using the bus for your event.
+Toastrack is ideal transport for society balls, parties, weddings and school proms. Please [contact us][contact-us] if you would like more information about using the bus for your event. Alternatively you can book using our [Google Form][google-form].
 
-There are frequent trips out to the country and seaside as well as to old vehicle rallies and museums of engineering/transport related interest, so why not come along and enjoy the ride? See the recent and upcoming events for where we have been, and where we will be going next.
+There are frequent trips out to the country and seaside as well as to old vehicle rallies and museums of engineering/transport related interest, so why not come along and enjoy the ride?
 
 [events-image]: /img/page-images/events.jpg
+[contact-us]: mailto:manager@toastrackbus.org
+[google-form]: book/
