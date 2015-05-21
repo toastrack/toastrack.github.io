@@ -1,0 +1,19 @@
+- name: Committee
+  page: /committee/
+  icon: fa-users
+  show: false
+
+- name: Facebook Page
+  page: https://www.facebook.com/toastrackbus
+  icon: fa-facebook-square
+  show: true
+
+- name: Blog
+  page: /blog/
+  icon: fa-envelope-o
+  show: false
+
+- name: Calendar
+  page: /calendar/
+  icon: fa-calendar-o
+  show: false

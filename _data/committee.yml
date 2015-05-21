@@ -1,0 +1,23 @@
+- name: Clotty Law
+  position: Manager
+  photo: clotty.jpg
+
+- name: Doug Morgan
+  position: Treasurer
+  photo: doug.jpg
+
+- name: Samson Danziger
+  position: Webmaster
+  photo: samson.jpg
+
+- name: Andy Barrett-Sprot
+  position: Secretary
+  photo: andy.jpg
+
+- name: Joe Sturgeon
+  position: Social Secretary
+  photo: joe.jpg
+
+- name: Kelly
+  position: Supreme Leader in Life and Death
+  photo: kelly.jpg

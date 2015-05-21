@@ -1,0 +1,21 @@
+<header>
+  <h1 id="site-title" ><a href="/" style="color:#fff">{{ site.name }}</a></h1>
+  <nav class="main-nav">
+    <a href="#" class="opener show-on-mobiles">...</a>
+    <div class="clear-opener show-on-mobiles"></div>
+    <div class="grid">
+      <ul>
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+		    <li><a href="/history/"><i class="fa fa-history"></i>History</a></li>
+        <li><a href="/events/"><i class="fa fa-road"></i>Events</a></li>
+        <li><a href="/get-involved/"><i class="fa fa-gears"></i>Get Involved</a></li>
+        <li><a href="/media/"><i class="fa fa-photo"></i>Media</a></li>
+        {% for p in site.data.header-pages %}
+        {% if p.show %}
+        <li><a href="{{ p.page }}"><i class="fa {{ p.icon }}"></i>{{ p.name }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>
