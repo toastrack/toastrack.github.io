@@ -4,6 +4,11 @@ name: Toastrack Bus
 markdown: kramdown
 ##syntax highlighter. change it to pygments
 highlighter: pygments
+##toastrack is a UK vehicle
+timezone: Europe/London
+
+##draft items
+exclude: []
 
 ##define base_url for valid usage in sitemap.xml and robots.txt
 base_url: http://new.toastrackbus.org
@@ -24,7 +29,7 @@ keywords: some, relevant, keywords, for, usage, in metatags
 #disqus: forumname
 
 ##set this to enable google analytics
-#ga_id: analyticsID
+ga_id: UA-57191586-2
 #ga_domain: analyticsDomain
 
 ##Some commonly used links
@@ -33,12 +38,6 @@ links:
   #twitter: username
   email: webmaster@toastrackbus.org
   github: toastrack
-  facebook-page: https://www.facebook.com/toastrackbus
-
-##Extra header pages
-header.pages:
-  #calendar: /calendar/
-  #blog: /blog/
 
 ##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
 about_image: placeholder.jpg
@@ -59,6 +58,3 @@ collections:
         output: true
     recent_events:
         output: true
-
-##don't build draft items
-exclude: [ /_drafts/ ]
