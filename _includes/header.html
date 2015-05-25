@@ -12,7 +12,7 @@
         <li><a href="/media/"><i class="fa fa-photo"></i>Media</a></li>
         {% for p in site.data.header-pages %}
         {% if p.show %}
-        <li><a href="{{ p.page }}"><i class="fa {{ p.icon }}"></i>{{ p.name }}</a></li>
+        <li><a href="{{ p.page }}" {% if p.target %}target="{{ p.target }}"{% endif %}><i class="fa {{ p.icon }}"></i>{{ p.name }}</a></li>
         {% endif %}
         {% endfor %}
       </ul>

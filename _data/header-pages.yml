@@ -7,6 +7,7 @@
   page: https://www.facebook.com/toastrackbus
   icon: fa-facebook-square
   show: true
+  target: _blank
 
 - name: Blog
   page: /blog/
