@@ -1,5 +1,5 @@
 - name: Committee
-  page: /committee/
+  page: /people/
   icon: fa-users
   show: false
 
