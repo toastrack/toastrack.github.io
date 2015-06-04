@@ -1,0 +1,15 @@
+---
+layout: default
+title: Technical Drawings Sorted
+---
+
+<div id="technical-drawings" class="grid post">
+  {% for folder in site.data.technical-drawings-sort %}
+  <div class="unit half">
+    <h3>{{ folder.name }}</h3>
+    <a href="/technical-drawings/folders/{{ folder.name | downcase }}">
+        <img src="/technical-drawings-lowres/{{ folder.files | first }}"/>
+    </a>
+  </div>
+  {% endfor %}
+</div>

@@ -10,3 +10,5 @@ The “Toastrack” is a 1929 vintage [Dennis][dennis-society] bus owned by the 
 
 [dennis-society]: http://www.dennissociety.org.uk/
 [home-image]: /img/page-images/home.jpg
+
+[//]: # TODO Add a way to donate money to Toastrack
