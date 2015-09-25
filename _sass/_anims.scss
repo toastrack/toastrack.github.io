@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 $dialog-anim-duration	: 0.3s;
 $dialog-anim-out-duration: 0.2s;
 $dialog-anim-diff		: 0.2;
@@ -30,7 +32,7 @@ $dialog-anim-diff		: 0.2;
 	10% {transform: scale(1 - $dialog-anim-diff);}
 	100% {transform: scale(0.4);}
 }
-/* 
+/*
 
 
 .#{$namespace}-dialog-anim-hide{
