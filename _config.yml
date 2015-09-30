@@ -11,7 +11,7 @@ timezone: Europe/London
 exclude: []
 
 ##define base_url for valid usage in sitemap.xml and robots.txt
-base_url: http://new.toastrackbus.org
+base_url: http://toastrackbus.org
 sass:
   sass_dir: _sass
   style: :compressed

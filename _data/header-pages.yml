@@ -3,6 +3,11 @@
   icon: fa-users
   show: false
 
+- name: Location
+  page: /location/
+  icon: icon-map-marker
+  show: true
+
 - name: Facebook Page
   page: https://www.facebook.com/toastrackbus
   icon: fa-facebook-square
