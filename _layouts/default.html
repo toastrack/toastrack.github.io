@@ -9,8 +9,13 @@
         {% endif %}
         <meta name="title" content="{{ page.title }}" >
         <link rel="icon" type="image/png" href="{{site.url}}/img/favicon.ico">
+				
 				<link rel="img_src" type="image/jpg" href="{{site.url}}/img/default-icon.jpg">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta property="og:image" content="{{site.url}}/img/default-icon.jpg">
+				<meta property="og:image:type" content="image/jpeg">
+				<meta property="og:image:width" content="200">
+
+				<meta name="viewport" content="width=device-width, initial-scale=1">
         {% include ssn.html %}
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/style.css">
