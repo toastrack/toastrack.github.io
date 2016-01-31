@@ -6,7 +6,7 @@
 - name: Location
   page: /location/
   icon: fa-icon-map-marker
-  show: true
+  show: false
 
 - name: Facebook Page
   page: https://www.facebook.com/toastrackbus
