@@ -1,16 +1,16 @@
-##The website title
+## The website title
 name: Toastrack Bus
-##Markdown processor
+## Markdown processor
 markdown: kramdown
-##syntax highlighter. change it to pygments
+## syntax highlighter. change it to pygments
 highlighter: pygments
-##toastrack is a UK vehicle
+## toastrack is a UK vehicle
 timezone: Europe/London
 
-##draft items
+## draft items
 exclude: []
 
-##define base_url for valid usage in sitemap.xml and robots.txt
+## define base_url for valid usage in sitemap.xml and robots.txt
 base_url: http://toastrackbus.org
 sass:
   sass_dir: _sass
@@ -20,33 +20,33 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 permalink: /blog/:year/:month/:day/:title/
 
-##The website description (to be used in meta tags)
+## The website description (to be used in meta tags)
 description: University of Southampton - Toastrack Bus
-##Some frequently used keywords on your website
-keywords: some, relevant, keywords, for, usage, in metatags
+## Some frequently used keywords on your website
+keywords: toastrack, bus, university, southampton, dennis, 1929, patent, worm, wheel
 
-##define this for disqus comment support
+## define this for disqus comment support
 #disqus: forumname
 
-##set this to enable google analytics
+## set this to enable google analytics
 ga_id: UA-57191586-2
 #ga_domain: analyticsDomain
 
-##Some commonly used links
+## Some commonly used links
 links:
   #facebook: username
   #twitter: username
   email: webmaster@toastrackbus.org
   github: toastrack
 
-##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
+## put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
 about_image: placeholder.jpg
 ##comment this if you want full width posts with no sidebar
 #sidebar: on
 
 encoding: UTF-8
 
-
+## Some collections
 collections:
     display-photos-lowres:
         output: true
