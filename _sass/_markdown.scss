@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic&subset=latin);
+@font-face {
+    font-family: Toastrack;
+    src: url(ToastrackFont.ttf);
+}
+
 
 body {
 	font: 1.3em "Vollkorn", Palatino, Times;
@@ -33,6 +38,12 @@ nav p {
 
 /* Typography
 -------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Toastrack, "Vollkorn", Palatino, Times;
+    line-height: 2;
+    text-align: justify;
+}
 
 h1 {
 	margin-top: 0;

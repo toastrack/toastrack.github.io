@@ -11,6 +11,7 @@
 @import 'anims';
 @import 'monokai';
 
+
 html, body{
 	//background-color: #eee;
 	background-color: #500000;
@@ -49,8 +50,9 @@ ul.recent-events {
 
 #site-title {
 	margin: 0;
-	font-size: 4em;
+	font-size: 2.3em;
 	text-align: center;
+    margin-bottom: 50px;
 	color: #ffffff; //$site-title-color;
 }
 
