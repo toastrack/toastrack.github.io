@@ -2,8 +2,8 @@
 name: Toastrack Bus
 ## Markdown processor
 markdown: kramdown
-## syntax highlighter. change it to pygments
-highlighter: pygments
+## syntax highlighter. changed to rouge after request from github
+highlighter: rouge
 ## toastrack is a UK vehicle
 timezone: Europe/London
 
