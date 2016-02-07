@@ -1,5 +1,5 @@
 ## The website title
-name: Toastrack Bus
+name: Toastrack   Bus
 ## Markdown processor
 markdown: kramdown
 ## syntax highlighter. changed to rouge after request from github
